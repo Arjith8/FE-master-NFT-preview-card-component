@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center">
-      <main className="p-8 rounded-3xl w-[26rem]">
+      <main className="p-8 rounded-3xl w-104 bg-blue-900">
         <img src="/image-equilibrium.jpg" alt="equilibrium" className="rounded-xl"/>
         <h1 className="text-3xl font-bold py-6">Equilibrium #3429</h1>
 

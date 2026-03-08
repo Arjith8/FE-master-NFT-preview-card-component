@@ -16,6 +16,3 @@ body {
   @apply bg-blue-950 text-white;
 }
 
-main {
-  @apply flex flex-row items-center justify-center bg-blue-900;
-}
