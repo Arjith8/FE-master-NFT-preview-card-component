@@ -10,7 +10,7 @@ export default function Home() {
               <img src="/icon-view.svg" alt="" aria-hidden="true" />
             </div>
           </div>
-          <h1 className="text-3xl font-bold py-6">Equilibrium #3429</h1>
+          <h1 className="text-3xl font-bold py-6 group-hover:text-cyan-400">Equilibrium #3429</h1>
         </div>
 
         <p className="text-xl text-blue-500 font-thin">Our Equilibrium collection promotes balance and calm.</p>
