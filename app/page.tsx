@@ -2,8 +2,16 @@ export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center">
       <main className="p-8 rounded-3xl w-104 bg-blue-900">
-        <img src="/image-equilibrium.jpg" alt="equilibrium" className="rounded-xl"/>
-        <h1 className="text-3xl font-bold py-6">Equilibrium #3429</h1>
+        
+        <div className="group cursor-pointer">
+          <div className="relative">
+            <img src="/image-equilibrium.jpg" alt="equilibrium" className="rounded-xl" />
+            <div className="absolute inset-0 rounded-xl bg-cyan-400/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+              <img src="/icon-view.svg" alt="" aria-hidden="true" />
+            </div>
+          </div>
+          <h1 className="text-3xl font-bold py-6">Equilibrium #3429</h1>
+        </div>
 
         <p className="text-xl text-blue-500 font-thin">Our Equilibrium collection promotes balance and calm.</p>
         <div className="flex flex-row justify-between py-4 text-xl">
